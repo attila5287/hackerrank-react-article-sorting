@@ -8,7 +8,7 @@
 
 Create a React application called "Article Sorting" that displays a list of articles and allows users to sort them based on upvotes and publication date. Some core functionalities have already been implemented, but the application is not complete. Application requirements are detailed below, and the finished application must pass all of the unit tests.
 
-![alt](./public\sorting-articles.gif)
+![alt](./public/sorting-articles.gif)
 
 
 Detailed Requirements
