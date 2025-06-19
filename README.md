@@ -1,21 +1,43 @@
-# React + TypeScript + Vite
+# Article Sorting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| desc | url | 
+| ----------- | --|
+|code repo |https://github.com/attila5287/hackerrank-react-article-sorting |
+|live on vercel |https://hackerrank-react-article-sorting.vercel.app/ |
+|solution 1   | [markdown](./solution1.md)  |
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+Create a React application called "Article Sorting" that displays a list of articles and allows users to sort them based on upvotes and publication date. Some core functionalities have already been implemented, but the application is not complete. Application requirements are detailed below, and the finished application must pass all of the unit tests.
 
-## Deploy Your Own
+![alt](./public\sorting-articles.gif)
 
-Deploy your own Vite project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+Detailed Requirements
 
-_Live Example: https://vite-react-example.vercel.app_
+    The Articles component takes an array of articles as a prop. Each element of this array is an object with three properties: a string title, a number upvotes, and a string date in the format YYYY-MM-DD.
+    By default, the articles should be displayed in a table ordered by the number of upvotes in descending order.
+    Clicking on the "Most Upvoted" button should reorder and display the articles by the number of upvotes in descending order.
+    Clicking on the "Most Recent" button should reorder and display the articles by date in descending order.
+    You can assume that each article has a unique publish date and number of upvotes.
 
-### Deploying From Your Terminal
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+Sample Interaction
 
-```shell
-$ vercel
-```
+Initial State
+
+    The articles are displayed in the table, ordered by the number of upvotes in descending order.
+    The "Most Upvoted" button and the "Most Recent" button are displayed.
+
+User Action 1
+
+    User clicks "Most Recent" button.
+    The articles are reordered and displayed by date in descending order.
+
+User Action 2
+
+    User clicks "Most Upvoted" button.
+    The articles are reordered and displayed by the number of upvotes in descending order.
+
+Hey there! Please enter the full-screen mode for the best experience
+
+    BlogScoringEnvironmentFAQAbout UsHelpdeskCareersTerms Of ServicePrivacy Policy
+
