@@ -4,7 +4,8 @@
 | ----------- | --|
 |code repo |https://github.com/attila5287/hackerrank-react-article-sorting |
 |live on vercel |https://hackerrank-react-article-sorting.vercel.app/ |
-|solution 1   | [markdown](./solution1.md)  |
+|solution 1   | [hard-coded button elements and handlerFunctions](./solution1.md)  |
+|solution 2   | [dynamically render buttons, and use functions accordingly](./solution2.md)  |
 
 Create a React application called "Article Sorting" that displays a list of articles and allows users to sort them based on upvotes and publication date. Some core functionalities have already been implemented, but the application is not complete. Application requirements are detailed below, and the finished application must pass all of the unit tests.
 
@@ -36,8 +37,3 @@ User Action 2
 
     User clicks "Most Upvoted" button.
     The articles are reordered and displayed by the number of upvotes in descending order.
-
-Hey there! Please enter the full-screen mode for the best experience
-
-    BlogScoringEnvironmentFAQAbout UsHelpdeskCareersTerms Of ServicePrivacy Policy
-
